@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>میرے بہترین دوست محمد حسین کے لیے سرپرائز</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4CAF50;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            margin: 20px 0;
+            color: #333;
+        }
+        .surprise-message {
+            display: none;
+            font-size: 22px;
+            color: #2e8b57;
+            margin-top: 30px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .reveal-btn {
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .reveal-btn:hover {
+            background-color: #45a049;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 18px;
+            color: #888;
+        }
+        .shayari {
+            font-size: 24px;
+            color: #8b0000;
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>میرے بہترین دوست محمد حسین کے لیے سرپرائز!</h1>
+        <p>نیچے بٹن پر کلک کریں تاکہ آپ کو میرے بہترین دوست محمد حسین کے لیے ایک خاص پیغام ملے!</p>
+        
+        <button class="reveal-btn" onclick="revealMessage()">سرپرائز دکھائیں</button>
+        
+        <div class="surprise-message" id="message">
+            <p><strong>پیارے محمد حسین،</strong></p>
+            <p>تم میرے بہترین دوست ہو اور میں ہمیشہ تمہاری دوستی کو بہت زیادہ قیمتی سمجھتا ہوں۔ تمہاری محبت، حمایت اور ہمیشہ موجودگی کے لیے میں ہمیشہ شکر گزار رہوں گا۔ تمہاری دوستی نے میری زندگی کو خوشیوں سے بھر دیا ہے۔</p>
+            <p>تمہاری ہنسی، تمہارے ساتھ گزارے گئے لمحات اور تمہاری باتیں ہمیشہ میری یادوں کا حصہ رہیں گی۔ میں دعا گو ہوں کہ ہماری دوستی ہمیشہ قائم رہے!</p>
+            <p><strong>تمام محبت کے ساتھ،</strong> ذلفی</p>
+
+            <div class="shayari">
+                <p>دوستی وہ نہیں جو ہم سب کو دکھا کر کرتے ہیں،<br>دوستی وہ ہے جو دل سے کی جاتی ہے۔<br>ساتھ ہو یا دور، دل میں رہے،<br>دوستی ہمیشہ قائم رہتی ہے۔</p>
+            </div>
+        </div>
+
+        <p class="footer">دنیا کے بہترین دوست ہونے کا شکریہ!</p>
+    </div>
+
+    <script>
+        function revealMessage() {
+            const surpriseMessage = document.getElementById("message");
+            surpriseMessage.style.display = "block";  // Show the hidden surprise message
+        }
+    </script>
+
+</body>
+</html>
